@@ -1,0 +1,50 @@
+@font-face {
+    font-family: OMORIFont;
+    src: url("./omori/OMORI_GAME2.ttf");
+}
+
+* {
+	font-family: OMORIFont;
+	color: white;
+	text-shadow: none;
+	font-size: 42px;
+}
+
+body {
+	background-image: image-set("./omori/backgrounds/dreamworld.gif");
+	background-size: cover;
+}
+
+#title {
+	position: absolute;
+	bottom: 202px;
+	left: 522px;
+}
+
+#textbox {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 15px;
+	z-index: -2;
+}
+
+#portrait {
+	position: absolute;
+	bottom: 195px;
+	left: 1251px;
+}
+
+#reason {
+	position: absolute;
+	top: 905px;
+	left: 531px;
+	width: 857px;
+}
+
+/* Everything is going to be okay. - MARI */
+#picnic {
+	position: absolute;
+	left: 780px;
+	top: 334px;
+	image-rendering: pixelated;
+}
