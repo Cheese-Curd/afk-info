@@ -1,0 +1,23 @@
+{
+	"pngs":
+	[
+		"blackspace",
+		"playground",
+		"raintown"
+	],
+	"music":
+	[
+		{
+			"blackspace": [
+				"calm"
+			],
+			"playground": [
+				"by_your_side"
+			],
+			"raintown": [
+				"amb_rain",
+				"puddles"
+			]
+		}
+	]
+}
